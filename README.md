@@ -1,6 +1,7 @@
 # calculator
 
 A new Flutter project.
+![App Image](https://github.com/fuadaslam/calculator/blob/main/lib/_screenshot/app.jpeg?raw=true)
 
 ## Getting Started
 
