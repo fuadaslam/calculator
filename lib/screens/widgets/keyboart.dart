@@ -56,6 +56,7 @@ class Keyboard extends StatelessWidget {
           rowButton([
             ButtonId.point,
             ButtonId.zero,
+            ButtonId.history,
             ButtonId.backspace,
             ButtonId.equal,
           ]),

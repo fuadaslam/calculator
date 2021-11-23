@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 const kTitle = 'Calculator';
 
 class ButtonId {
@@ -22,4 +24,5 @@ class ButtonId {
   static const openParantes = '(';
   static const closeParantes = ')';
   static const percentage = '%';
+  static const history = 'history';
 }

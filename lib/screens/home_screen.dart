@@ -13,6 +13,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String _primaryDisplayerText = '';
   String _secondaryDisplayerText = '';
+  List history = [];
 
   void buttonPressed(String id) {
     setState(
@@ -34,7 +35,12 @@ class _HomeScreenState extends State<HomeScreen> {
           double result = calculate(_primaryDisplayerText);
           if (result != double.infinity)
             _secondaryDisplayerText = cleanResult(result);
-        } else {
+        }
+        else if (id == ButtonId.history) {
+
+        }
+
+        else {
           _primaryDisplayerText += id;
           double result = calculate(_primaryDisplayerText);
           if (result != double.infinity)

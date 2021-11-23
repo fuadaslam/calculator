@@ -38,6 +38,12 @@ Widget setChild(String id) {
       color: Color(0xFFF57B7B),
     );
 
+  if (id == ButtonId.history)
+    return Icon(
+      Icons.history,
+      color: Color(0xFF26F4CE),
+    );
+
   if (id == ButtonId.ac)
     return Text(
       id,
