@@ -50,6 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,7 +59,9 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.transparent,
         title: Container(
           margin: EdgeInsets.only(left: 8),
-          child: Text(kTitle),
+          child: Container(
+              margin: EdgeInsets.only(left: MediaQuery.of(context).size.width*0.65),
+              child: Text(kTitle)),
         ),
       ),
       body: SafeArea(
